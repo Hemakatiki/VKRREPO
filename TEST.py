@@ -45,7 +45,13 @@ class MultiplyTestCase(unittest.TestCase):
         result = multiply(3, 1)
 
         self.assertEqual(result,3)
-       
+
+
+   def test_7(self):
+
+        result = multiply(0, 1)
+
+        self.assertEqual(result,3)
        
     
 
