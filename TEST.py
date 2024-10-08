@@ -51,7 +51,7 @@ class MultiplyTestCase(unittest.TestCase):
 
         result = multiply(0, 1)
 
-        self.assertEqual(result,3)
+        self.assertEqual(result,0)
        
     
 
